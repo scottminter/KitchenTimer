@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58671BAC1E1BF49600F04AFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58671BAB1E1BF49600F04AFE /* AppDelegate.swift */; };
+		58671BAE1E1BF49600F04AFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58671BAD1E1BF49600F04AFE /* ViewController.swift */; };
+		58671BB11E1BF49600F04AFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58671BAF1E1BF49600F04AFE /* Main.storyboard */; };
+		58671BB31E1BF49600F04AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58671BB21E1BF49600F04AFE /* Assets.xcassets */; };
+		58671BB61E1BF49600F04AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58671BB41E1BF49600F04AFE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58671BA81E1BF49600F04AFE /* Kitchen Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kitchen Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58671BAB1E1BF49600F04AFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58671BAD1E1BF49600F04AFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58671BB01E1BF49600F04AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58671BB21E1BF49600F04AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58671BB51E1BF49600F04AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58671BB71E1BF49600F04AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58671BA51E1BF49600F04AFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58671B9F1E1BF49600F04AFE = {
+			isa = PBXGroup;
+			children = (
+				58671BAA1E1BF49600F04AFE /* Kitchen Timer */,
+				58671BA91E1BF49600F04AFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58671BA91E1BF49600F04AFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58671BA81E1BF49600F04AFE /* Kitchen Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58671BAA1E1BF49600F04AFE /* Kitchen Timer */ = {
+			isa = PBXGroup;
+			children = (
+				58671BAB1E1BF49600F04AFE /* AppDelegate.swift */,
+				58671BAD1E1BF49600F04AFE /* ViewController.swift */,
+				58671BAF1E1BF49600F04AFE /* Main.storyboard */,
+				58671BB21E1BF49600F04AFE /* Assets.xcassets */,
+				58671BB41E1BF49600F04AFE /* LaunchScreen.storyboard */,
+				58671BB71E1BF49600F04AFE /* Info.plist */,
+			);
+			path = "Kitchen Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58671BA71E1BF49600F04AFE /* Kitchen Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58671BBA1E1BF49600F04AFE /* Build configuration list for PBXNativeTarget "Kitchen Timer" */;
+			buildPhases = (
+				58671BA41E1BF49600F04AFE /* Sources */,
+				58671BA51E1BF49600F04AFE /* Frameworks */,
+				58671BA61E1BF49600F04AFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kitchen Timer";
+			productName = "Kitchen Timer";
+			productReference = 58671BA81E1BF49600F04AFE /* Kitchen Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58671BA01E1BF49600F04AFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott Minter";
+				TargetAttributes = {
+					58671BA71E1BF49600F04AFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 58671BA31E1BF49600F04AFE /* Build configuration list for PBXProject "Kitchen Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58671B9F1E1BF49600F04AFE;
+			productRefGroup = 58671BA91E1BF49600F04AFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58671BA71E1BF49600F04AFE /* Kitchen Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58671BA61E1BF49600F04AFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58671BB61E1BF49600F04AFE /* LaunchScreen.storyboard in Resources */,
+				58671BB31E1BF49600F04AFE /* Assets.xcassets in Resources */,
+				58671BB11E1BF49600F04AFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58671BA41E1BF49600F04AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58671BAE1E1BF49600F04AFE /* ViewController.swift in Sources */,
+				58671BAC1E1BF49600F04AFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58671BAF1E1BF49600F04AFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58671BB01E1BF49600F04AFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58671BB41E1BF49600F04AFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58671BB51E1BF49600F04AFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58671BB81E1BF49600F04AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58671BB91E1BF49600F04AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58671BBB1E1BF49600F04AFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kitchen Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sminter.Kitchen-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		58671BBC1E1BF49600F04AFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kitchen Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sminter.Kitchen-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58671BA31E1BF49600F04AFE /* Build configuration list for PBXProject "Kitchen Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58671BB81E1BF49600F04AFE /* Debug */,
+				58671BB91E1BF49600F04AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58671BBA1E1BF49600F04AFE /* Build configuration list for PBXNativeTarget "Kitchen Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58671BBB1E1BF49600F04AFE /* Debug */,
+				58671BBC1E1BF49600F04AFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58671BA01E1BF49600F04AFE /* Project object */;
+}
